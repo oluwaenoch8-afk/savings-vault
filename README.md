@@ -1,30 +1,21 @@
-# savings-vault
-# 💰 STX Savings Vault
+# ⚡ LightStx – Proof of Support
 
-A **decentralized savings app** on Stacks blockchain.  
-Users can create personal **STX vaults**, set a **savings goal**, lock their tokens for a chosen time, and only withdraw once the lock expires.
+LightStx is a **short, clean, and authentic contract** on Stacks.  
+It lets anyone **send STX** to show support for a cause, creator, or project.  
+All pledges are **recorded transparently** on-chain.  
 
 ---
 
 ## ✨ Features
-- 🔒 **Time-Locked Vaults** — funds cannot be withdrawn before unlock.  
-- 🎯 **Savings Goals** — every vault has a financial goal (e.g., 500 STX for vacation).  
-- 📊 **Track Deposits** — vault balance grows over time.  
-- 🏦 **Self-Custody** — no third party can touch user funds.  
+- ⚡ **Support with STX**  
+- 📊 **Track total support given**  
+- 🧑‍🤝‍🧑 **See what each supporter contributed**  
+- 🔑 **Funds go directly to the contract owner**  
 
 ---
 
-## 🚀 Why This Project Stands Out
-- **Smart Financial Utility**: Shows how STX enables real-world savings behavior.  
-- **Unique**: Goes beyond tip jars & voting — focuses on personal finance.  
-- **Demo-Ready**: Easy to show → lock STX, attempt early withdraw (fail), unlock, withdraw (success).  
-- **Attractive to Judges**: Combines **clarity, usefulness, and transparency**.  
+## 🚀 Example Usage
 
----
-
-## 📖 Example Flow
-
-### 1. Create Vault
+### Send Support
 ```clarity
-(contract-call? .savings-vault create-vault u500 u50)
- 
+(contract-call? .lightstx support u50)

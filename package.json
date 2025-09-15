@@ -1,6 +1,6 @@
 
 {
-  "name": "savings-vault-tests",
+  "name": "LightStx-tests",
   "version": "1.0.0",
   "description": "Run unit tests on this project.",
   "type": "module",
